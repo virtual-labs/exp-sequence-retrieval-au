@@ -88,23 +88,67 @@
     /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-    const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+    const myQuestions = [
+        
+
+        {
+            question: "1: The correct format for choosing Swissprot database using R programing.", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "choosebank(swissdata)", ///// Write the option 1 inside double quotes
+                b: "choosebank(“swissprot”)", ///// Write the option 2 inside double quotes
+                c: "selectdatabase(“swissprot”)", ///// Write the option 2 inside double quotes
+                d: "database(“swissprot”)", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+        
+
+        {
+            question: "2: UniProtKB/Swiss-Prot is:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "manually curated", ///// Write the option 1 inside double quotes
+                b: "Not curated", ///// Write the option 2 inside double quotes
+                c: "Automatically maintained", ///// Write the option 2 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+
+        {
+            question: "3: Applications of Uniprot:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "information on biological function of proteins", ///// Write the option 1 inside double quotes
+                b: "evolutionary relationships of protein sequence", ///// Write the option 2 inside double quotes
+                c: "post-translation modifications in proteins", ///// Write the option 2 inside double quotes
+                d: "All the above", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "4. PIR:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Protein Information Resource", ///// Write the option 1 inside double quotes
+                b: "Protein International Resource", ///// Write the option 2 inside double quotes
+                c: "Protein Information Retrieval", ///// Write the option 2 inside double quotes
+                d: "Protein Information Reference", ///// Write the option 2 inside double quotes
+               
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        }
+
+
+
 
 
         
