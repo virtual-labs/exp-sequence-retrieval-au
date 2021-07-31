@@ -38,3 +38,4 @@ To load “SeqinR” R package follow the commands
             > lepraeseq # Display the contents of the vector "lepraeseq" 
 
 
+
